@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'SimHei';
+}
+
+/*针对PC屏幕的专用样式*/
+@media screen and (min-width: 992px) {
+  .box {
+    padding: 15px;
+    color: #3a3;
+    background: #afa;
+  }
+}
+/*针对PAD屏幕的专用样式*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .box {
+    padding: 15px;
+    color: #a33;
+    background: #faa;
+  }
+}
+/*针对PHONE屏幕的专用样式*/
+@media screen and (max-width: 767px) {
+  .box {
+    padding: 15px;
+    color: #33a;
+    background: #aaf;
+  }
+  h1 {
+    display: none;
+  }
+}

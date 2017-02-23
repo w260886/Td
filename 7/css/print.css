@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-size: 12px;
+  font-family: 'SimHei';
+}
+
+.box {
+  background: #ff0;
+  color: #00f;
+}
